@@ -1,14 +1,14 @@
-# Copyright 2023 Canonical Ltd.
-# See LICENSE file for licensing details.
+# # Copyright 2023 Canonical Ltd.
+# # See LICENSE file for licensing details.
 
-bundle: kubernetes
-applications:
-  kubeflow-dashboard:
-    charm: cs:kubeflow-dashboard
-    source: ../
-    scale: 1
-  kubeflow-profiles:
-    charm: cs:kubeflow-profiles
-    scale: 1
-relations:
-  - [kubeflow-profiles, kubeflow-dashboard]
+# bundle: kubernetes
+# applications:
+#   kubeflow-dashboard:
+#     charm: cs:kubeflow-dashboard
+#     source: ../
+#     scale: 1
+#   kubeflow-profiles:
+#     charm: cs:kubeflow-profiles
+#     scale: 1
+# relations:
+#   - [kubeflow-profiles, kubeflow-dashboard]
